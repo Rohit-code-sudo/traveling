@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link rel="icon" href="./image/pp1.jpg" type="image/icon type">
+  <link href="path/to/tailwind.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+  <!-- Header -->
+
+    <header class="sticky bg-slate-700">
+      <div class="relative grid px-4 py-4 mx-auto">
+        <nav class="flex justify-center ">  
+          <a href="#" class="text-xl font-bold text-white"></a>
+          <ul class="hidden md:flex md:space-x-4 ">
+            <li><a href="#" class="text-white hover:text-blue-200">Home</a></li>
+            <li><a href="#" class="text-white hover:text-blue-200">Trips</a></li>
+            <li><a href="#" class="text-white hover:text-blue-200">About</a></li>
+            <li><a href="#" class="text-white hover:text-blue-200">Blog</a></li>
+            <li><a href="#" class="text-white hover:text-blue-200">Contact</a></li>
+          </ul>
+          <div class="md:hidden">
+            <button id="menuToggle"  class="text-2xl text-black ">
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Hero Section -->
+      <div class=" h-[1000px] md:h-[600px]  relative " >
+        <div class="top-[20%]  pl-3 md:pl-10 absolute " id="landingText">
+            <p class="text-[#ffff33] text-2xl font-medium my-8">our Next Adventure Awaits</p>
+            <h1 class=" text-4xl md:text-6xl text-white font-bold tracking-[]  ">WHAT WE DO IN LIFE ECHOES IN ETERNITY</h1>
+            <p class="my-8 text-white w-72">Explore exciting destinations and book your dream trip today</p>
+            <button class="w-32 h-10 text-white bg-black border-0 border-white hover:border-2 hover:text-black hover:bg-transparent" >Get Started</button>
+            <button  class="w-32 h-10 border-2 border-white hover:bg-black hover:border-0 hover:text-white">Learn More</button>
+        </div> 
+        <div class="h-full bg-fixed bg-cover " style="background-image: url(image/p3.jpg);" ></div>       
+      </div>
+
+      <!---------------------section 3 (about Runner)--------------------------->
+
+      <div class="bg-[#1a1a1a] px-8  md:px-10 py-1">
+        <div class="col-span-3 my-10 text-center text-white " id="programPart1">
+            <p class="text-[#E8FF02] text-md sm:text-xl md:text-2xl tracking-[4px] font-medium">LiVe YoUr LiFe </p>
+            <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold tracking-[5px] ">THE BEST MOVEMENT OF LIFE </h1>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#1a1a1a] px-0 md:px-10 py-0 md:py-10 rounded-md" id="programPart2"> 
+            <div class="h-[250px] sm:h-[350px] md:h-[350px] relative ">
+                <div class="absolute px-8 top-10 sm:top-36 md:top-28">
+                    <h1 class="mt-10 text-xl font-bold text-white sm:text-2xl">Enjoy </h1>
+                    <p class="text-md text-[#d9d9d9] py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit elit tellus.</p>
+                    <button class="w-20 h-8 text-white bg-black sm:w-32">Join Now!</button>
+                </div > 
+                <div class="h-full bg-cover rounded-md bg-img" style="background-image:url(image/p8.jpg)" ></div>
+            </div>
+            <div class="h-[250px] sm:h-[350px] md:h-[350px] relative ">
+                <div class="absolute px-8 top-10 sm:top-36 md:top-28 ">
+                    <h1 class="mt-10 text-xl font-bold text-white sm:text-2xl">live your life</h1>
+                    <p class="text-md text-[#d9d9d9] py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit elit tellus.</p>
+                    <button class="w-20 h-8 text-white bg-black sm:w-32">Join Now!</button>
+                </div> 
+                <div class="h-full bg-cover rounded-md bg-img" style="background-image:url(image/p6.jpg)"></div>
+            </div>
+            <div class="h-[250px] sm:h-[350px] md:h-[350px] relative ">
+                <div class="absolute px-8 top-10 sm:top-36 md:top-28">
+                    <h1 class="mt-10 text-xl font-bold text-white sm:text-2xl">live your life</h1>
+                    <p class="text-md text-[#d9d9d9] py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit elit tellus.</p>
+                    <button class="w-20 h-8 text-white bg-black sm:w-32">Join Now!</button>
+                </div> 
+                <div class="h-full bg-cover rounded-md bg-img" style="background-image:url(image/pp5.jpg)"></div>
+            </div>
+        </div>
+    </div>
+    <!------------------section 6 (event page)----------------------------------->
+    
+    <div class="bg-[#1a1a1a] py-16 px-5 md:px-10 h-[1100px] sm:h-[1200px] md:h-[1000px] ">
+      <div class="" id="aboutText">
+          <p class="text-xl font-medium tracking-[6px] text-[#E8FF02]">ABOUT Traveling</p>
+          <h1 class="text-2xl md:text-5xl pr-0 md:pr-5 my-5 font-bold text-white tracking-[5px]  md:w-[60%]"> ADVENTURE LIKE THERE IS NO TOMORROW</h1>
+          <p class="text-md md:text-xl md:w-[60%] md:pr-28 my-5 font-medium text-[#d9d9d9]">YOU CAN RUN FAST, JUMP HIGH OR LIFT HEAVY WEIGHTS BUT IF YOUR BAD HABITS ARE HOLDING YOU BACK THEN ALL OF THIS WILL BE POINTLESS!</p>
+          <button class="w-28 h-10 my-10 font-medium text-white bg-green-500 rounded-lg  hover:bg-[#1a1a1a] hover:text-white hover:border-2 border-white transition ease-in-out delay-150">Read More</button>
+      </div>
+      <div class="w-[100%] md:w-[50%] sm:h-[400px] md:h-[380px] lg:h-[420px] border-0 border-white relative float-left" id="aboutTextImg1">
+          <p class="absolute px-12 text-3xl font-bold text-center text-transparent top-20 md:top-32 sm:text-5xl md:text-6xl" id="transparent">&nbsp;  LEVEL UP YOUR GAME</p>
+          <img src="image/p7.jpg" alt="" class="w-[100%] rounded-xl brightness-115 h-[100%]">
+      </div>
+      <div class="w-[100%] h-[300px] md:w-[50%] md:h-[300px] rounded-xl lg:h-[300px] bg-[#E8FF02] float-left md:float-right md:translate-y-12 md:-translate-x-12 md:px-5" id="aboutTextImg2">
+          <div class=" sm:grid grid-cols-2 h-[50%] ">
+              <p class="text-2xl font-bold ">OUR VISION</p>
+              <p class="mt-0 sm:mt-0">Integer id suscipit felis, vel efficitur leo. Phasellus ultrices, quam eu feugiat ultrices, mi lacus facilisis nulla laoreet.</p>
+          </div><hr class="border-black border-1 "> 
+          <div class="  sm:grid grid-cols-2 h-[50%] ">
+              <p class="text-2xl font-bold ">OUR MISSION</p>
+              <p class="mt-0 sm:mt-0">Nullam nec dignissim risus. Duis at lorem in sem luctus faucibus. Mauris finibus vestibulum felis, non aliquam neque.</p>
+          </div>
+      </div>
+  </div>  
+
+  <!-- Trip Listing Section -->
+  <div class=" text-white relative h-[1000px] sm:h-[800px] md:h-[550px] " id="parallex1" > 
+    
+    <div class="h-full bg-fixed bg-black bg-cover " style="background-image:url(image/pp1.jpg);">
+    </div>
+
+</div>
+
+
+  <section id="trips" class="px-4 py-16 bg-[#1a1a1a]">
+    <div class="container mx-auto">
+      <h2 class="mb-8 text-2xl font-bold">Adventure Trips</h2>
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <!-- Sample trip cards, you can loop through actual trip data -->
+        <div class="p-1 bg-current rounded shadow-lg" id="programPart2">
+          <img src="image/pp3.jpg" alt="Trip Image" class="object-cover w-full h-40 mb-4 rounded">
+          <h3 class="mb-2 text-lg font-bold">Adventure Trip 1</h3>
+          <p class="mb-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="block font-bold text-blue-500">Learn More</a>
+        </div>
+        <div class="p-1 bg-current rounded shadow-lg" id="img">
+          <img src="image/p2.jpg" alt="Trip Image" class="object-cover w-full h-40 mb-4 rounded">
+          <h3 class="mb-2 text-lg font-bold">Adventure Trip 2</h3>
+          <p class="mb-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="block font-bold text-blue-500">Learn More</a>
+        </div>
+        <div class="p-1 bg-current rounded shadow-lg " id="parallex1">
+          <img src="image/p9.jpg" alt="Trip Image" class="object-cover w-full h-40 mb-4 rounded">
+          <h3 class="mb-2 text-lg font-bold">Adventure Trip 3</h3>
+          <p class="mb-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="block font-bold text-blue-500">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ----------------blog------------- -->
+  <div class="relative" id="parallex2">
+    <div class="absolute grid content-center w-full h-full grid-cols-1 bg-slate-800/70 opacity-80 md:grid-cols-2">
+        <div class="">
+            <h1 class="text-2xl font-bold text-center text-black md:text-4xl ">LET'S DO THE RUN TOGETHER!</h1>
+        </div>
+        <div class="grid justify-center px-10 py-10 md:py-0">
+            <button class="w-32 h-10 text-white bg-black border rounded-xl hover:border-red-500 ">SignUp Now</button>
+        </div> 
+    </div>
+    <div class="h-56 bg-fixed" style="background-image: url(image/pp6.jpg);" ></div>      
+</div>
+
+<div class="py-2 bg-black md:py-8" id="blog">
+    <div class="text-center tracking-[4px]">
+        <h1 class="text-[#e8ff02] text-xl md:text-2xl">Blog News</h1>
+        <h1 class="my-2 text-2xl font-bold text-white md:text-5xl md:my-5">ARTICLES ABOUT SPORTS</h1>
+    </div>
+    <div class="grid grid-cols-1 gap-5 p-10 sm:grid-cols-2 md:grid-cols-3">
+        <div class="">
+            <div class="overflow-hidden ">
+                <div class="h-[250px] bg-cover transition duration-1000 ease-in-out delay-150 hover:scale-125 hover:-rotate-6 hover:brightness-50" style="background-image: url(image/pp1.jpg);"> 
+                </div>
+            </div>
+            <h1 class="text-[#e8ff02] tracking-[3px] text-sm md:text-xl">NOVEMBER 18, 2022</h1>
+            <h1 class="my-2 text-xl font-medium text-white md:text-3xl ">HEALTH & SAFETY WITH RUNNING</h1>
+            <button class="h-8 text-black bg-white rounded-lg w-28 ">Read More</button>
+        </div>
+        <div class="">
+            <div class="overflow-hidden ">
+                <div class="h-[250px] bg-cover transition duration-1000 ease-in-out delay-150 hover:scale-125 hover:-rotate-6 hover:brightness-50" style="background-image: url(image/p1.jpg);"> 
+                </div>
+            </div>
+            <h1 class="text-[#e8ff02] tracking-[3px] text-sm md:text-xl">NOVEMBER 18, 2022</h1>
+            <h1 class="my-2 text-xl font-medium text-white md:text-3xl ">CHOOSING THE RUNNING SHOES</h1>
+            <button class="h-8 text-black bg-white w-28 ">Read More</button>
+        </div>
+        <div class="">
+            <div class="overflow-hidden ">
+                <div class="h-[250px] bg-cover transition duration-1000 ease-in-out delay-150 hover:scale-125 hover:-rotate-6 hover:brightness-50" style="background-image: url(image/pp4.jpg);"> 
+                </div>
+            </div>
+            <h1 class="text-[#e8ff02] tracking-[3px] text-sm md:text-xl">NOVEMBER 18, 2022</h1>
+            <h1 class="my-2 text-xl font-medium text-white md:text-3xl ">RUNNING TIP FOR THE BEGINNER</h1>
+            <button class="h-8 text-black bg-white w-28 ">Read More</button>
+        </div>  
+    </div>
+</div>
+
+  <!-- Booking Form Section -->
+  <section class="px-4 relative py-16 bg-[#212121]" id="parallex">
+    <div class="container absolute mx-auto">
+      <h2 class="py-8 mb-8 text-2xl font-bold text-center">Book Your Adventure</h2>
+      <form class="max-w-md p-6 mx-auto border-white rounded-md hover:border" id="">
+        <div class="mb-4">
+          <label for="name" class="block text-white">Full Name</label>
+          <input type="text" id="name" name="name" class="w-full p-1.5 border border-gray-300 rounded focus:outline-none">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-white">Email</label>
+          <input type="email" id="email" name="email" class="w-full p-1.5 border border-gray-300 rounded focus:outline-none">
+        </div>
+        <div class="mb-4">
+          <label for="trip" class="block text-white">Select Trip</label>
+          <select id="trip" name="trip" class="w-full p-1.5 border border-gray-300 rounded focus:outline-none">
+            <option value="">Adventure Trip 1</option>
+            <option value="">Adventure Trip 2</option>
+            <option value="">Adventure Trip 3</option>
+          </select>
+        </div>
+        <button type="submit" class="px-4 py-2 font-bold text-center text-white bg-yellow-500 right-full rounded-xl hover:bg-yellow-600">Book
+          Now
+        </button>
+      </form>
+    </div>
+    <div class="h-[70vh] bg-fixed" style="background-image: url(image/p2.jpg);" ></div>  
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-4 py-4 text-center text-white bg-[#1a1a1a]">
+    <div class="justify-center px-10 py-1 md:flex md:py-2 ">
+       <p>&copy; 2023 Adventure Travel. All rights reserved.</p>
+      <h1 class="px-10 hover:text-[#E8FF02] text-xs md:text-sm">Privacy Policy</h1>
+      <h1 class="hover:text-[#E8FF02] text-xs md:text-sm  ">Terms & conditions</h1>
+  </div> 
+  </footer>
+  <script src="index.js"></script> 
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const menuList = document.querySelector('ul');
+  
+    menuToggle.addEventListener('click', () => {
+      menuList.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>
